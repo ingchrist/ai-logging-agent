@@ -40,4 +40,3 @@ print(response.text)
 print("-" * 50)
 print("✓ Setup successful! Your environment is ready.")
 
-ls

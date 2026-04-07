@@ -33,5 +33,6 @@ while true; do
     fi
 
     # Check every 5 seconds
-    sleep 
+    sleep 60
+    
 done

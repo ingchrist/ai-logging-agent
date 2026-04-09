@@ -22,7 +22,7 @@ while true; do
         git add -A
 
         # Commit with timestamp
-        git commit -m "making some improvements at $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "making some improvements at"
 
         # Push
         if git push origin "$BRANCH"; then

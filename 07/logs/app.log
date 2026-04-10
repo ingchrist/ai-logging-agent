@@ -1,0 +1,25 @@
+2024-01-15 08:00:01 INFO  Application starting up...
+2024-01-15 08:00:02 INFO  Loading configuration from environment
+2024-01-15 08:00:03 INFO  Database connection established: db.example.com:5432
+2024-01-15 08:00:04 INFO  Cache connection established: redis.example.com:6379
+2024-01-15 08:00:05 INFO  Server listening on port 8080
+2024-01-15 08:01:12 INFO  GET /api/users 200 45ms
+2024-01-15 08:01:45 INFO  GET /api/products 200 67ms
+2024-01-15 08:02:30 WARNING  Slow query detected: SELECT * FROM orders took 1200ms
+2024-01-15 08:03:15 INFO  POST /api/orders 201 89ms
+2024-01-15 08:05:00 ERROR  Database connection timeout after 30s
+2024-01-15 08:05:01 ERROR  Failed to process request: connection pool exhausted
+2024-01-15 08:05:02 INFO  Retrying database connection...
+2024-01-15 08:05:05 INFO  Database connection re-established
+2024-01-15 08:06:00 INFO  GET /api/users 200 52ms
+2024-01-15 08:10:00 WARNING  Memory usage at 85%: 1700MB / 2000MB
+2024-01-15 08:15:00 ERROR  Unhandled exception in /api/checkout: NullPointerException
+2024-01-15 08:15:01 ERROR  Stack trace: at CheckoutService.java:142
+2024-01-15 08:20:00 INFO  Scheduled job: cleanup_sessions completed in 340ms
+2024-01-15 08:25:00 WARNING  Disk space at 90%: 45GB / 50GB
+2024-01-15 08:30:00 INFO  Health check passed
+2024-01-15 08:35:00 ERROR  Rate limit exceeded for IP 192.168.1.100 (500 req/min)
+2024-01-15 08:40:00 INFO  Cache hit ratio: 92%
+2024-01-15 08:45:00 INFO  GET /api/reports 200 2340ms
+2024-01-15 08:50:00 WARNING  API response time degraded: avg 1800ms (threshold 1000ms)
+2024-01-15 09:00:00 INFO  Application running normally

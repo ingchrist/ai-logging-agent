@@ -1,0 +1,12 @@
+2024-01-15 08:05:00 ERROR  Database connection timeout after 30s - host=db.example.com port=5432
+2024-01-15 08:05:01 ERROR  Failed to process request: connection pool exhausted - pool_size=10 active=10
+2024-01-15 08:15:00 ERROR  Unhandled exception in /api/checkout: NullPointerException
+2024-01-15 08:15:01 ERROR  Stack trace: at CheckoutService.process(CheckoutService.java:142)
+2024-01-15 08:15:01 ERROR  Stack trace: at OrderController.checkout(OrderController.java:87)
+2024-01-15 08:15:01 ERROR  Stack trace: at HttpDispatcher.handle(HttpDispatcher.java:34)
+2024-01-15 08:35:00 ERROR  Rate limit exceeded for IP 192.168.1.100 - requests=500 limit=300 window=60s
+2024-01-15 09:10:00 ERROR  SSL certificate expiring in 7 days for domain api.example.com
+2024-01-15 09:45:00 ERROR  Failed login attempt for user admin@example.com - attempt 3/5
+2024-01-15 10:00:00 ERROR  Payment gateway timeout: Stripe API did not respond within 10s
+2024-01-15 10:00:01 ERROR  Order #4892 failed - payment not collected
+2024-01-15 10:30:00 ERROR  Disk write failed: /var/log/audit.log - No space left on device
